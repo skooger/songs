@@ -12,7 +12,7 @@ server.get("/", (req,res) => {
 
     const songs = [{id: 1, name: "Final Countdown"}]
 
-    res.status(200).jsong(songs)
+    res.status(200).json(songs)
 
 })
 
